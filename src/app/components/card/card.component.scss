@@ -28,14 +28,22 @@
 
 .card__stats {
   padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
 }
 
 .card__stats__type {
-  color: white;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
   background-color: coral;
   border-radius: 5px;
   padding: 5px;
   margin-right: 3px;
+}
+
+.card__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
